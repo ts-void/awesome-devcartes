@@ -3,85 +3,183 @@ title = "Awesome Devcartes"
 description_en = "A curated, lean list of my Linux tools, with one sentence on why each one is awesome."
 description_de = "Kuratierte, schlanke Liste meiner Linux-Tools mit je einem Satz, warum sie awesome sind."
 
+###################################################################################################
+
 [[category]]
 name_en = "Desktop (Wayland)"
 name_de = "Desktop (Wayland)"
 
-  [[category.tool]]
-  name = "sway"
-  url = "https://github.com/swaywm/sway"
-  language = "C"
-  why_en = "Tiling compositor that replaces i3 on Wayland and is configured entirely through a plain text file."
-  why_de = "Tiling-Compositor, der i3 auf Wayland ersetzt und sich komplett per Textdatei steuern lässt."
+[[category.tool]]
+name = "sway"
+url = "https://github.com/swaywm/sway"
+language = "C"
+why_en = "Tiling compositor that replaces i3 on Wayland and is configured entirely through a plain text file."
+why_de = "Tiling-Compositor, der i3 auf Wayland ersetzt und sich komplett per Textdatei steuern lässt."
 
-  [[category.tool]]
-  name = "fuzzel"
-  url = "https://codeberg.org/dnkl/fuzzel"
-  language = "C"
-  why_en = "Fast, lightweight Wayland launcher that is easy to wire into your own scripts."
-  why_de = "Schneller, schlanker Launcher für Wayland, der sich gut in eigene Skripte einbinden lässt."
+[[category.tool]]
+name = "fuzzel"
+url = "https://codeberg.org/dnkl/fuzzel"
+language = "C"
+why_en = "Fast, lightweight Wayland launcher that is easy to wire into your own scripts."
+why_de = "Schneller, schlanker Launcher für Wayland, der sich gut in eigene Skripte einbinden lässt."
 
-  [[category.tool]]
-  name = "clipman"
-  url = "https://github.com/chmouel/clipman"
-  language = "Go"
-  why_en = "Clipboard manager for Wayland that keeps your history and plays well with wl-clipboard and launchers like fuzzel."
-  why_de = "Zwischenablage-Manager für Wayland, der den Verlauf speichert und sich gut mit wl-clipboard und Launchern wie fuzzel kombinieren lässt."
+[[category.tool]]
+name = "clipman"
+url = "https://github.com/chmouel/clipman"
+language = "Go"
+why_en = "Clipboard manager for Wayland that keeps your history and plays well with wl-clipboard and launchers like fuzzel."
+why_de = "Zwischenablage-Manager für Wayland, der den Verlauf speichert und sich gut mit wl-clipboard und Launchern wie fuzzel kombinieren lässt."
+
+###################################################################################################
 
 [[category]]
 name_en = "Terminal & Shell"
 name_de = "Terminal & Shell"
 
-  [[category.tool]]
-  name = "foot"
-  url = "https://codeberg.org/dnkl/foot"
-  language = "C"
-  why_en = "Minimalist Wayland terminal emulator that starts instantly and uses very few resources."
-  why_de = "Minimalistischer Wayland-Terminal-Emulator, der extrem schnell startet und wenig Ressourcen braucht."
+[[category.tool]]
+name = "foot"
+url = "https://codeberg.org/dnkl/foot"
+language = "C"
+why_en = "Minimalist Wayland terminal emulator that starts instantly and uses very few resources."
+why_de = "Minimalistischer Wayland-Terminal-Emulator, der extrem schnell startet und wenig Ressourcen braucht."
+
+[[category.tool]]
+name = "zsh"
+url = "https://www.zsh.org/"
+language = "C"
+why_en = "Powerful interactive shell with advanced customization, programmable completion and scripting capabilities."
+why_de = "Leistungsfähige interaktive Shell mit umfangreichen Anpassungsmöglichkeiten, programmierbarer Autovervollständigung und Scripting-Funktionen."
+
+[[category.tool]]
+name = "zsh-autosuggestions"
+url = "https://github.com/zsh-users/zsh-autosuggestions"
+language = "Zsh"
+why_en = "Suggests commands from your history as you type, making repetitive terminal work much faster."
+why_de = "Schlägt während der Eingabe Befehle aus dem Verlauf vor und beschleunigt wiederkehrende Terminal-Aufgaben erheblich."
+
+[[category.tool]]
+name = "zsh-completions"
+url = "https://github.com/zsh-users/zsh-completions"
+language = "Zsh"
+why_en = "Adds hundreds of additional completion definitions for commands and tools, making tab completion much more powerful."
+why_de = "Ergänzt Hunderte zusätzliche Completion-Definitionen für Befehle und Werkzeuge und macht die Tab-Vervollständigung deutlich leistungsfähiger."
+
+[[category.tool]]
+name = "zsh-syntax-highlighting"
+url = "https://github.com/zsh-users/zsh-syntax-highlighting"
+language = "Zsh"
+why_en = "Highlights commands as you type, helping you spot invalid commands and syntax errors before execution."
+why_de = "Hebt Befehle bereits während der Eingabe farblich hervor und hilft dabei, ungültige Befehle und Syntaxfehler vor der Ausführung zu erkennen."
+
+###################################################################################################
 
 [[category]]
 name_en = "CLI Tools"
 name_de = "CLI-Werkzeuge"
 
-  [[category.tool]]
-  name = "bat"
-  url = "https://github.com/sharkdp/bat"
-  language = "Rust"
-  why_en = "cat with syntax highlighting and Git integration, without losing pipe compatibility."
-  why_de = "cat mit Syntax-Highlighting und Git-Integration, ohne die Pipe-Tauglichkeit zu verlieren."
+[[category.tool]]
+name = "aria2"
+url = "https://github.com/aria2/aria2"
+language = "C++"
+why_en = "Lightweight multi-protocol download utility supporting HTTP, HTTPS, FTP, BitTorrent and Metalink with parallel downloads."
+why_de = "Schlanker Download-Manager für HTTP, HTTPS, FTP, BitTorrent und Metalink mit Unterstützung für parallele Downloads."
 
-  [[category.tool]]
-  name = "eza"
-  url = "https://github.com/eza-community/eza"
-  language = "Rust"
-  why_en = "Modern ls with colors, icons and Git status that works as a drop-in replacement."
-  why_de = "Modernes ls mit Farben, Icons und Git-Status, das als Drop-in-Ersatz funktioniert."
+[[category.tool]]
+name = "bat"
+url = "https://github.com/sharkdp/bat"
+language = "Rust"
+why_en = "cat with syntax highlighting and Git integration, without losing pipe compatibility."
+why_de = "cat mit Syntax-Highlighting und Git-Integration, ohne die Pipe-Tauglichkeit zu verlieren."
 
-  [[category.tool]]
-  name = "btop"
-  url = "https://github.com/aristocratos/btop"
-  language = "C++"
-  why_en = "A beautiful, interactive resource monitor that shows CPU, memory, disks, network and running processes in a single terminal dashboard."
-  why_de = "Ein übersichtlicher, interaktiver Ressourcenmonitor, der CPU, Arbeitsspeicher, Festplatten, Netzwerk und laufende Prozesse in einem einzigen Terminal-Dashboard darstellt."
+[[category.tool]]
+name = "eza"
+url = "https://github.com/eza-community/eza"
+language = "Rust"
+why_en = "Modern ls with colors, icons and Git status that works as a drop-in replacement."
+why_de = "Modernes ls mit Farben, Icons und Git-Status, das als Drop-in-Ersatz funktioniert."
+
+[[category.tool]]
+name = "btop"
+url = "https://github.com/aristocratos/btop"
+language = "C++"
+why_en = "A beautiful, interactive resource monitor that shows CPU, memory, disks, network and running processes in a single terminal dashboard."
+why_de = "Ein übersichtlicher, interaktiver Ressourcenmonitor, der CPU, Arbeitsspeicher, Festplatten, Netzwerk und laufende Prozesse in einem einzigen Terminal-Dashboard darstellt."
+
+###################################################################################################
 
 [[category]]
 name_en = "Editors & Development"
 name_de = "Editoren & Entwicklung"
 
-  [[category.tool]]
-  name = "helix"
-  url = "https://github.com/helix-editor/helix"
-  language = "Rust"
-  why_en = "Modal editor with built-in LSP and Tree-sitter that is productive out of the box, no plugins needed."
-  why_de = "Modaler Editor mit eingebautem LSP und Tree-sitter, der ohne Plugins sofort produktiv ist."
+[[category.tool]]
+name = "helix"
+url = "https://github.com/helix-editor/helix"
+language = "Rust"
+why_en = "Modal editor with built-in LSP and Tree-sitter that is productive out of the box, no plugins needed."
+why_de = "Modaler Editor mit eingebautem LSP und Tree-sitter, der ohne Plugins sofort produktiv ist."
+
+[[category.tool]]
+name = "zola"
+url = "https://github.com/getzola/zola"
+language = "Rust"
+why_en = "Fast static site generator written in Rust that builds complete websites without requiring a database or JavaScript runtime."
+why_de = "Schneller, in Rust geschriebener Static-Site-Generator, der komplette Websites ohne Datenbank oder JavaScript-Laufzeitumgebung erstellt."
+
+###################################################################################################
 
 [[category]]
 name_en = "File Management"
 name_de = "Dateimanagement"
 
-  [[category.tool]]
-  name = "yazi"
-  url = "https://github.com/sxyazi/yazi"
-  language = "Rust"
-  why_en = "Blazing-fast terminal file manager with async previews for images and documents."
-  why_de = "Blitzschneller Terminal-Dateimanager mit asynchronen Vorschauen für Bilder und Dokumente."
+[[category.tool]]
+name = "yazi"
+url = "https://github.com/sxyazi/yazi"
+language = "Rust"
+why_en = "Blazing-fast terminal file manager with async previews for images and documents."
+why_de = "Blitzschneller Terminal-Dateimanager mit asynchronen Vorschauen für Bilder und Dokumente."
+
+###################################################################################################
+
+[[category]]
+name_en = "Android & Devices"
+name_de = "Android & Geräte"
+
+[[category.tool]]
+name = "scrcpy"
+url = "https://github.com/Genymobile/scrcpy"
+language = "C, Java"
+why_en = "Mirrors and controls Android devices over USB or Wi-Fi with remarkably low latency, without requiring root or installing an app."
+why_de = "Spiegelt und steuert Android-Geräte über USB oder WLAN mit erstaunlich geringer Latenz, ganz ohne Root oder zusätzliche App-Installation."
+
+###################################################################################################
+
+[[category]]
+name_en = "Multimedia"
+name_de = "Multimedia"
+
+[[category.tool]]
+name = "vlc"
+url = "https://www.videolan.org/vlc/"
+language = "C, C++"
+why_en = "Versatile media player that plays almost any audio and video format without requiring additional codecs."
+why_de = "Vielseitiger Mediaplayer, der nahezu jedes Audio- und Videoformat ohne zusätzliche Codecs abspielt."
+
+###################################################################################################
+
+[[category]]
+name_en = "Hardware & Peripherals"
+name_de = "Hardware & Peripherie"
+
+[[category.tool]]
+name = "openrgb"
+url = "https://openrgb.org/"
+language = "C++"
+why_en = "Controls RGB lighting across devices from different manufacturers through one unified application, without vendor-specific software."
+why_de = "Steuert RGB-Beleuchtung verschiedener Hersteller über eine zentrale Anwendung, ganz ohne herstellerspezifische Software."
+
+[[category.tool]]
+name = "solaar"
+url = "https://github.com/pwr-Solaar/Solaar"
+language = "Python"
+why_en = "Linux device manager for Logitech wireless peripherals that exposes battery status, device settings and advanced features."
+why_de = "Linux-Geräteverwaltung für kabellose Logitech-Peripherie mit Akkustand, Geräteeinstellungen und erweiterten Funktionen."
