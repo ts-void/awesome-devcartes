@@ -19,6 +19,12 @@ name_de = "Desktop (Wayland)"
   why_en = "Fast, lightweight Wayland launcher that is easy to wire into your own scripts."
   why_de = "Schneller, schlanker Launcher für Wayland, der sich gut in eigene Skripte einbinden lässt."
 
+  [[category.tool]]
+  name = "clipman"
+  url = "https://github.com/chmouel/clipman"
+  why_en = "Clipboard manager for Wayland that keeps your history and plays well with wl-clipboard and launchers like fuzzel."
+  why_de = "Zwischenablage-Manager für Wayland, der den Verlauf speichert und sich gut mit wl-clipboard und Launchern wie fuzzel kombinieren lässt."
+
 [[category]]
 name_en = "Terminal & Shell"
 name_de = "Terminal & Shell"
@@ -64,9 +70,3 @@ name_de = "Dateimanagement"
   url = "https://github.com/sxyazi/yazi"
   why_en = "Blazing-fast terminal file manager with async previews for images and documents."
   why_de = "Blitzschneller Terminal-Dateimanager mit asynchronen Vorschauen für Bilder und Dokumente."
-
-  [[category.tool]]
-  name = "clipman"
-  url = "https://github.com/chmouel/clipman"
-  why_en = "Clipboard manager for Wayland that keeps your history and plays well with wl-clipboard and launchers like fuzzel."
-  why_de = "Zwischenablage-Manager für Wayland, der den Verlauf speichert und sich gut mit wl-clipboard und Launchern wie fuzzel kombinieren lässt."
