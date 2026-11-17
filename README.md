@@ -14,6 +14,7 @@ A curated, lean list of my Linux tools, with one sentence on why each one is awe
 
 - [sway](https://github.com/swaywm/sway) - Tiling compositor that replaces i3 on Wayland and is configured entirely through a plain text file.
 - [fuzzel](https://codeberg.org/dnkl/fuzzel) - Fast, lightweight Wayland launcher that is easy to wire into your own scripts.
+- [clipman](https://github.com/chmouel/clipman) - Clipboard manager for Wayland that keeps your history and plays well with wl-clipboard and launchers like fuzzel.
 
 ## Terminal & Shell
 
@@ -31,4 +32,3 @@ A curated, lean list of my Linux tools, with one sentence on why each one is awe
 ## File Management
 
 - [yazi](https://github.com/sxyazi/yazi) - Blazing-fast terminal file manager with async previews for images and documents.
-- [clipman](https://github.com/chmouel/clipman) - Clipboard manager for Wayland that keeps your history and plays well with wl-clipboard and launchers like fuzzel.
