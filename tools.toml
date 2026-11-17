@@ -1,0 +1,66 @@
+[meta]
+title = "awesome-devcartes"
+description_en = "A curated, lean list of my Linux tools, with one sentence on why each one is awesome."
+description_de = "Kuratierte, schlanke Liste meiner Linux-Tools mit je einem Satz, warum sie awesome sind."
+
+[[category]]
+name_en = "Desktop (Wayland)"
+name_de = "Desktop (Wayland)"
+
+  [[category.tool]]
+  name = "sway"
+  url = "https://github.com/swaywm/sway"
+  why_en = "Tiling compositor that replaces i3 on Wayland and is configured entirely through a plain text file."
+  why_de = "Tiling-Compositor, der i3 auf Wayland ersetzt und sich komplett per Textdatei steuern lässt."
+
+  [[category.tool]]
+  name = "fuzzel"
+  url = "https://codeberg.org/dnkl/fuzzel"
+  why_en = "Fast, lightweight Wayland launcher that is easy to wire into your own scripts."
+  why_de = "Schneller, schlanker Launcher für Wayland, der sich gut in eigene Skripte einbinden lässt."
+
+[[category]]
+name_en = "Terminal & Shell"
+name_de = "Terminal & Shell"
+
+  [[category.tool]]
+  name = "foot"
+  url = "https://codeberg.org/dnkl/foot"
+  why_en = "Minimalist Wayland terminal emulator that starts instantly and uses very few resources."
+  why_de = "Minimalistischer Wayland-Terminal-Emulator, der extrem schnell startet und wenig Ressourcen braucht."
+
+[[category]]
+name_en = "CLI Tools"
+name_de = "CLI-Werkzeuge"
+
+  [[category.tool]]
+  name = "bat"
+  url = "https://github.com/sharkdp/bat"
+  why_en = "cat with syntax highlighting and Git integration, without losing pipe compatibility."
+  why_de = "cat mit Syntax-Highlighting und Git-Integration, ohne die Pipe-Tauglichkeit zu verlieren."
+
+  [[category.tool]]
+  name = "eza"
+  url = "https://github.com/eza-community/eza"
+  why_en = "Modern ls with colors, icons and Git status that works as a drop-in replacement."
+  why_de = "Modernes ls mit Farben, Icons und Git-Status, das als Drop-in-Ersatz funktioniert."
+
+[[category]]
+name_en = "Editors & Development"
+name_de = "Editoren & Entwicklung"
+
+  [[category.tool]]
+  name = "helix"
+  url = "https://github.com/helix-editor/helix"
+  why_en = "Modal editor with built-in LSP and Tree-sitter that is productive out of the box, no plugins needed."
+  why_de = "Modaler Editor mit eingebautem LSP und Tree-sitter, der ohne Plugins sofort produktiv ist."
+
+[[category]]
+name_en = "File Management"
+name_de = "Dateimanagement"
+
+  [[category.tool]]
+  name = "yazi"
+  url = "https://github.com/sxyazi/yazi"
+  why_en = "Blazing-fast terminal file manager with async previews for images and documents."
+  why_de = "Blitzschneller Terminal-Dateimanager mit asynchronen Vorschauen für Bilder und Dokumente."

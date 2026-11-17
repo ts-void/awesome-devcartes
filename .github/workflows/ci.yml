@@ -1,0 +1,42 @@
+# Ablage im Awesome-Repo: .github/workflows/ci.yml
+name: ci
+
+on:
+  push:
+    branches: [main]
+    paths: [tools.toml, generate.py]
+  schedule:
+    - cron: "0 5 * * 1" # montags Link-Check
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  readme:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python generate.py tools.toml --format readme --lang en --out README.md
+      - name: README committen, falls geändert
+        run: |
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: README neu generiert"
+            git push
+          fi
+
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress tools.toml
+          fail: true
