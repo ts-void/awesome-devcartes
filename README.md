@@ -1,6 +1,6 @@
 # Awesome Devcartes
 
-A curated, lean list of my Linux tools, with one sentence on why each one is awesome.
+A curated, lean list of my Linux tools, with a short explanation on why each one is awesome.
 
 ## Contents
 
